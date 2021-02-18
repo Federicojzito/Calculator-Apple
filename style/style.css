@@ -1,0 +1,96 @@
+
+/*Estilo del HTML*/
+
+html{
+    background: linear-gradient(to bottom,#45484D,#000000 100%);
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+/*Estilo Titulos*/
+
+h1{
+    text-align: center;
+    color: #fff;
+}
+
+/* Estilo Calculadora*/
+
+.calculator{
+    width: 300px;
+    height: 475px;
+    background-color: #282927;
+    margin: 0 auto;
+    border-radius: 10px;
+    overflow: hidden;
+    border :1px solid #000;
+    text-align: center;
+}
+
+.calculator__screen{
+    width: 90%;
+    height: 100px;
+    font-size: 50px;
+    padding: 0;
+    border:0;
+    border-radius: 6px;
+    color:#fff;
+    text-align:right;
+    background: transparent;
+    font-weight: 100;
+
+}
+
+
+.calculator__keypad{
+    border-top: 1px solid #5D5D5C;
+
+}   
+
+/* Estilos de los botones*/
+
+.btn{
+    background-color: #5D5D5C;
+    width: 75px;
+    height: 75px;
+    float:left;
+    font-size: 30px;
+    color:#fff;
+    border:0;
+    font-weight: 300;
+    border-right: 1px solid #000;
+    border-bottom: 1px solid #000;
+}
+
+/* Estilo de los numeros */
+
+.btn-double{
+    width: 150px;
+    text-align: left;
+    padding-left: 30px  ;
+}
+
+.btn-dark{
+    background-color: #3C3D3C;
+}
+
+.btn-orange{
+    background-color: #FF940E;
+} 
+
+/* Pseudoelementos */
+
+.btn:nth-child(4n),
+.btn:last-child {
+    border-right: 0;
+}
+
+/* Click en los botones*/
+
+.btn:focus{
+    outline: none  ;
+}
+
+.btn:active{
+    opacity: 0.5;
+}
