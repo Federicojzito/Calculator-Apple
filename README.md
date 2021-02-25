@@ -1,4 +1,4 @@
-# Calculadora "Apple"
+# Calculator "Apple"
 
 https://federicojzito.github.io/Calculator-Apple/
 
